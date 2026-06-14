@@ -301,11 +301,11 @@ export default function Portfolio() {
                 <div className="section-label">Professional Links</div>
                 <h2>Find me online</h2>
                 <div className={`links-grid fade-in ${isFadeInVisible('links-grid') ? 'visible' : ''}`} id="links-grid">
-                    <a className="link-card" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
+                    <a className="link-card" href="https://www.linkedin.com/in/mohammed-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
                         <div className="link-icon" style={{ background: 'rgba(0,119,181,0.15)' }}>💼</div>
                         <div>
                             <div className="link-name">LinkedIn</div>
-                            <div className="link-url">mohammad-vasail-shaikh</div>
+                            <div className="link-url">mohammed-vasail-shaikh</div>
                         </div>
                         <div className="link-arrow">↗</div>
                     </a>
@@ -361,7 +361,7 @@ export default function Portfolio() {
                             <div className="contact-value">Mumbai, India</div>
                         </div>
                     </div>
-                    <a className="contact-item" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
+                    <a className="contact-item" href="https://www.linkedin.com/in/mohammed-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
                         <div className="contact-icon">💼</div>
                         <div>
                             <div className="contact-label">LinkedIn</div>
