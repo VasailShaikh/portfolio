@@ -50,11 +50,10 @@ export default function Portfolio() {
 
     return (
         <div className="portfolio">
-            
 
             {/* NAV */}
             <nav>
-                <div className="nav-logo"><span>Vasail.Portfolio</span></div>
+                <div className="nav-logo">Vasail<span>.</span>Portfolio</div>
                 <ul className="nav-links">
                     <li><a href="#role" className={activeSection === 'role' ? 'active' : ''}>Current Role</a></li>
                     <li><a href="#history" className={activeSection === 'history' ? 'active' : ''}>Work History</a></li>
@@ -63,69 +62,70 @@ export default function Portfolio() {
                     <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a></li>
                 </ul>
             </nav>
-
+            <br>
+            </br>
+            <br>
+            </br>
             {/* HERO */}
-            <section id="hero">
+            <section>
                 <div className="hero-bg"></div>
-                <div className="hero-grid">
-                    <div className="hero-left">
-                        <div className="hero-eyebrow">Specialist Software Engineer</div>
-                        <h1>Mohammed<br /><em>Vasail</em><br />Shaikh</h1>
-                        <p className="hero-desc">
-                            <strong>Fullstack engineer with </strong>
-                            <strong style={{ color: 'var(--text)' }} className="stat-label">Over 7 years</strong>
-                            <strong> of expertise building scalable applications across the</strong>
-                            <strong style={{ color: 'var(--text)' }} className="stat-label">.NET ecosystem</strong>
-                            <strong>, Microsoft Azure, and modern web technologies. Clean code advocate. AI-assisted development enthusiast.</strong>
-                        </p>
-                        <div className="hero-cta">
-                            <a href="#contact" className="btn-primary">Get in touch →</a>
-                            <a href="#history" className="btn-outline">View experience</a>
+                <h2 className="stat-num">MOHAMMED VASAIL SHAIKH</h2>  
+                <div className="hero-eyebrow"><h3>Specialist Software Engineer</h3></div>           
+                <br>
+                </br>
+                  
+                    <p className="hero-desc">
+                        <strong>Fullstack engineer with </strong>
+                        <strong style={{ color: 'var(--text)' }} className="stat-label">Over 7 years</strong>
+                        <strong> of expertise building scalable applications across the</strong>
+                        <strong style={{ color: 'var(--text)' }} className="stat-label"> .NET ecosystem</strong>
+                        <strong>, Microsoft Azure, and modern web technologies. Clean code advocate. AI-assisted development enthusiast.</strong>
+                    </p>
+
+                    <div className="stat-row">
+                        <div className="stat-card">
+                            <div className="stat-num"><span>Over 7</span></div>
+                            <div className="stat-label">Years of experience</div>
                         </div>
-                    </div>
-                    <div className="hero-right">
-                        <div className="stat-row">
-                            <div className="stat-card">
-                                <div className="stat-num"><span>Over 7</span></div>
-                                <div className="stat-label">Years of experience</div>
-                            </div>
-                            <div className="stat-card">
-                                <div className="stat-num"><span>3</span></div>
-                                <div className="stat-label"><strong>Companies & domains</strong></div>
-                            </div>
+                        <div className="stat-card">
+                            <div className="stat-num"><span>3</span></div>
+                            <div className="stat-label"><strong>Companies & domains</strong></div>
                         </div>
-                        <div className="stat-row">
-                            <div className="stat-card">
-                                <div className="stat-num"><span>40%</span></div>
-                                <div className="stat-label"><strong>Scalability boost delivered</strong></div>
-                            </div>
-                            <div className="stat-card">
-                                <div className="stat-num"><span>99.9%</span></div>
-                                <div className="stat-label"><strong>Uptime SLA achieved</strong></div>
-                            </div>
-                        </div>
-                        <div className="location-badge">
-                            <div className="dot"></div>
-                            Mumbai, India · Open to opportunities
-                        </div>
-                    </div>
                 </div>
+                    <br></br>
+                    <div className="stat-row">
+                        <div className="stat-card">
+                            <div className="stat-num"><span>40%</span></div>
+                            <div className="stat-label"><strong>Scalability boost delivered</strong></div>
+                        </div>
+                        <div className="stat-card">
+                            <div className="stat-num"><span>90%</span></div>
+                            <div className="stat-label"><strong>Uptime SLA achieved</strong></div>
+                        </div>
+                    </div>
+                    <br>
+                    </br>
+                    <div className="location-badge">
+                        <div className="dot"></div>
+                    <strong>Open to new opportunities - 📍 Mumbai, India.</strong>
+                    </div>
+                                  
             </section>
-
-            <div className="section-divider"></div>
-
+                       
             {/* CURRENT ROLE */}
             <section id="role">
-                <div className="section-label">Current Role</div>
-                <h2>Where I work today</h2>
+                <div className="section-label">
+                    <h3>Current Role</h3>
+                </div>
+
                 <div className={`current-role-card fade-in ${isFadeInVisible('role-card') ? 'visible' : ''}`} id="role-card">
                     <div className="role-header">
                         <div>
-                            <div className="company-badge">● LTIMindtree</div>
+
                             <div className="role-title">Specialist Software Engineer</div>
                             <div className="role-meta">
-                                <span>📍 Mumbai, India</span>
-                                <span>🗓 Nov 2022 – Present</span>
+                                <div className="company-badge">● LTIMindtree</div>
+                                <span>🗓 Jan 2026 – Present</span>
                             </div>
                         </div>
                     </div>
@@ -143,14 +143,14 @@ export default function Portfolio() {
                             <div className="impact-desc">Performance gain via cloud migration</div>
                         </div>
                     </div>
-                    <ul className="role-bullets">
-                        <li>Delivered multiple web-based applications from scratch using .NET Core, improving scalability by 40% and reducing deployment time by 50% through Azure automated CI/CD pipelines.</li>
-                        <li>Led cloud migration of legacy applications to Azure and .NET Core — improved performance by 25% and achieved 99.9% uptime SLA.</li>
-                        <li>Designed RESTful generic APIs in Microservice Architecture to automate bidirectional data flow between applications and SAP.</li>
-                        <li>Automated daily and monthly analysis reports using Microsoft SSRS.</li>
-                        <li>Developed Generic APIs for SharePoint file download/upload; migrated physical store files to SharePoint without application disruption.</li>
-                        <li>Mentored junior developers on coding best practices and cloud architecture.</li>
-                    </ul>
+                    {/*<ul className="role-bullets">*/}
+                    {/*    <li>Delivered multiple web-based applications from scratch using .NET Core, improving scalability by 40% and reducing deployment time by 50% through Azure automated CI/CD pipelines.</li>*/}
+                    {/*    <li>Led cloud migration of legacy applications to Azure and .NET Core — improved performance by 25% and achieved 99.9% uptime SLA.</li>*/}
+                    {/*    <li>Designed RESTful generic APIs in Microservice Architecture to automate bidirectional data flow between applications and SAP.</li>*/}
+                    {/*    <li>Automated daily and monthly analysis reports using Microsoft SSRS.</li>*/}
+                    {/*    <li>Developed Generic APIs for SharePoint file download/upload; migrated physical store files to SharePoint without application disruption.</li>*/}
+                    {/*    <li>Mentored junior developers on coding best practices and cloud architecture.</li>*/}
+                    {/*</ul>*/}
                     <div className="tags">
                         <span className="tag">.NET Core</span>
                         <span className="tag">Azure CI/CD</span>
@@ -162,22 +162,58 @@ export default function Portfolio() {
                     </div>
                 </div>
             </section>
-
-            <div className="section-divider"></div>
-
+                        
             {/* WORK HISTORY */}
             <section id="history">
-                <div className="section-label">Work History</div>
-                <h2>Career journey</h2>
+                <div className="section-label">
+
+                    <h3> Career Journey</h3>
+                </div>
+
                 <div className="timeline">
+
+                    <div className={`timeline-item fade-in ${isFadeInVisible('history-0') ? '' : ''}`} id="history-0">
+                        <div className={`timeline-card ${isFadeInVisible('history-0') ? 'visible' : ''}`}>
+                            <div className="timeline-header">
+                                <div>
+                                    <div className="timeline-role">Senior Software Engineer</div>
+                                    <div className="company-badge">● LTIMindtree Ltd</div>
+                                    {/*<div className="role-meta">*/}
+                                    {/*    <span>🗓 Nov 2022 – Dec 2025</span>*/}
+                                    {/*</div>*/}
+                                </div>
+                                <div className="timeline-period">
+                                    <span>🗓 <strong>Nov 2022 – Dec 2025</strong></span>
+                                </div>
+                            </div>
+                            <ul className="role-bullets">
+                                <li>Delivered multiple web-based applications from scratch using .NET Core, improving scalability by 40% and reducing deployment time by 50% through Azure automated CI/CD pipelines.</li>
+                                <li>Led cloud migration of legacy applications to Azure and .NET Core — improved performance by 25% and achieved 99.9% uptime SLA.</li>
+                                <li>Designed RESTful generic APIs in Microservice Architecture to automate bidirectional data flow between applications and SAP.</li>
+                                <li>Automated daily and monthly analysis reports using Microsoft SSRS.</li>
+                                <li>Developed Generic APIs for SharePoint file download/upload; migrated physical store files to SharePoint without application disruption.</li>
+                                <li>Mentored junior developers on coding best practices and cloud architecture.</li>
+                            </ul>
+                            <div className="tags">
+                                <span className="tag">ASP.NET MVC</span>
+                                <span className="tag">Dapper ORM</span>
+                                <span className="tag">iTextSharp</span>
+                                <span className="tag">VAPT</span>
+                                <span className="tag">SMTP</span>
+                                <span className="tag">SQL Optimisation</span>
+                            </div>
+                        </div>
+                    </div>
                     <div className={`timeline-item fade-in ${isFadeInVisible('history-1') ? '' : ''}`} id="history-1">
                         <div className={`timeline-card ${isFadeInVisible('history-1') ? 'visible' : ''}`}>
                             <div className="timeline-header">
                                 <div>
                                     <div className="timeline-role">Software Developer</div>
-                                    <div className="timeline-company">Birlasoft</div>
+                                    <div className="company-badge">● Birlasoft ltd</div>
                                 </div>
-                                <div className="timeline-period">Jan 2021 – Sep 2022</div>
+                                <div className="timeline-period">
+                                    <span> 🗓 <strong>Jan 2021 – Sep 2022</strong></span>
+                                </div>
                             </div>
                             <ul className="timeline-bullets">
                                 <li>Developed two web applications (EoDB & MahaWaqf) from scratch using ASP.NET MVC and Dapper ORM, delivering 10+ citizen services across 4 major releases.</li>
@@ -202,10 +238,13 @@ export default function Portfolio() {
                         <div className={`timeline-card ${isFadeInVisible('history-2') ? 'visible' : ''}`}>
                             <div className="timeline-header">
                                 <div>
-                                    <div className="timeline-role">Software Developer</div>
-                                    <div className="timeline-company">FitnessForce Gym Management Software</div>
+                                    <div className="timeline-role">Jr. Software Developer</div>
+                                    <div className="company-badge">● Grip Technologies Pvt Ltd</div>
+
                                 </div>
-                                <div className="timeline-period">Feb 2019 – Oct 2020</div>
+                                <div className="timeline-period">
+                                    <span> 🗓 <strong>Feb 2019 – Oct 2020</strong></span>
+                                </div>
                             </div>
                             <ul className="timeline-bullets">
                                 <li>Developed new modules for an existing SaaS application using .NET MVC and MySQL, serving 50+ fitness centers across India and the Middle East.</li>
@@ -224,17 +263,16 @@ export default function Portfolio() {
                     </div>
                 </div>
             </section>
-
-            <div className="section-divider"></div>
-
+            
             {/* SKILLS */}
-            <section id="skills">
-                <div className="section-label">Technical Skills</div>
-                <h2>What I work with</h2>
+            <section id="skills">                
+                <div className="section-label">
+                    <h3> Technical Skill set</h3>
+                </div>
                 <div className={`skills-grid fade-in ${isFadeInVisible('skills-grid') ? 'visible' : ''}`} id="skills-grid">
                     <div className="skill-group">
                         <div className="skill-group-title">Languages</div>
-                        <div className="skill-pills">
+                        <div className="skill-pills skill-left">
                             <span className="skill-pill">C#</span>
                             <span className="skill-pill">JavaScript</span>
                             <span className="skill-pill">SQL</span>
@@ -244,7 +282,7 @@ export default function Portfolio() {
                     </div>
                     <div className="skill-group">
                         <div className="skill-group-title">Frameworks & Libraries</div>
-                        <div className="skill-pills">
+                        <div className="skill-pills flex-end">
                             <span className="skill-pill">.NET Core</span>
                             <span className="skill-pill">ASP.NET MVC</span>
                             <span className="skill-pill">Entity Framework</span>
@@ -254,7 +292,7 @@ export default function Portfolio() {
                     </div>
                     <div className="skill-group">
                         <div className="skill-group-title">Cloud & DevOps</div>
-                        <div className="skill-pills">
+                        <div className="skill-pills skill-left">
                             <span className="skill-pill">Azure App Services</span>
                             <span className="skill-pill">Azure Functions</span>
                             <span className="skill-pill">Azure SQL</span>
@@ -264,7 +302,7 @@ export default function Portfolio() {
                     </div>
                     <div className="skill-group">
                         <div className="skill-group-title">Tools</div>
-                        <div className="skill-pills">
+                        <div className="skill-pills flex-end">
                             <span className="skill-pill">Visual Studio</span>
                             <span className="skill-pill">MS SQL Server</span>
                             <span className="skill-pill">VS Code</span>
@@ -293,19 +331,18 @@ export default function Portfolio() {
                     </div>
                 </div>
             </section>
-
-            <div className="section-divider"></div>
-
             {/* LINKS */}
             <section id="links">
-                <div className="section-label">Professional Links</div>
-                <h2>Find me online</h2>
+
+                <div className="section-label">
+                    <h3>Professional Links</h3>
+                </div>
                 <div className={`links-grid fade-in ${isFadeInVisible('links-grid') ? 'visible' : ''}`} id="links-grid">
-                    <a className="link-card" href="https://www.linkedin.com/in/mohammed-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
+                    <a className="link-card" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
                         <div className="link-icon" style={{ background: 'rgba(0,119,181,0.15)' }}>💼</div>
                         <div>
                             <div className="link-name">LinkedIn</div>
-                            <div className="link-url">mohammed-vasail-shaikh</div>
+                            <div className="link-url">mohammad-vasail-shaikh</div>
                         </div>
                         <div className="link-arrow">↗</div>
                     </a>
@@ -328,12 +365,11 @@ export default function Portfolio() {
                 </div>
             </section>
 
-            <div className="section-divider"></div>
-
             {/* CONTACT */}
             <section id="contact">
-                <div className="section-label">Contact</div>
-                <h2>Let's talk</h2>
+                <div className="section-label">
+                    <h3>Connect With Me</h3>
+                </div>
                 <div className={`contact-grid fade-in ${isFadeInVisible('contact-grid') ? 'visible' : ''}`} id="contact-grid">
                     <a className="contact-item" href="tel:+918879914041">
                         <div className="contact-icon">📱</div>
@@ -349,11 +385,11 @@ export default function Portfolio() {
                             <div className="contact-value">shaikhvasail008@gmail.com</div>
                         </div>
                     </a>
-                   
+
                 </div>
                 <br></br>
                 <div className={`contact-grid fade-in ${isFadeInVisible('contact-grid') ? 'visible' : ''}`} id="contact-grid">
-                   
+
                     <div className="contact-item">
                         <div className="contact-icon">📍</div>
                         <div>
@@ -370,6 +406,7 @@ export default function Portfolio() {
                     </a>
                 </div>
             </section>
+
 
             {/* FOOTER */}
             <footer>
