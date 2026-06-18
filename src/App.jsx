@@ -215,7 +215,7 @@ export default function Portfolio() {
                                     <span> 🗓 <strong>Jan 2021 – Sep 2022</strong></span>
                                 </div>
                             </div>
-                            <ul className="timeline-bullets">
+                            <ul className="role-bullets">
                                 <li>Developed two web applications (EoDB & MahaWaqf) from scratch using ASP.NET MVC and Dapper ORM, delivering 10+ citizen services across 4 major releases.</li>
                                 <li>Implemented digital signature functionality using iTextSharp library.</li>
                                 <li>Resolved vulnerabilities from VAPT audits, strengthening security posture.</li>
@@ -246,7 +246,7 @@ export default function Portfolio() {
                                     <span> 🗓 <strong>Feb 2019 – Oct 2020</strong></span>
                                 </div>
                             </div>
-                            <ul className="timeline-bullets">
+                            <ul className="role-bullets">
                                 <li>Developed new modules for an existing SaaS application using .NET MVC and MySQL, serving 50+ fitness centers across India and the Middle East.</li>
                                 <li>Integrated the SaaS application with Oracle Fusion for KSA and UAE customers.</li>
                                 <li>Developed automated reports via console application for respective stakeholders.</li>
