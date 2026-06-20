@@ -1,7 +1,5 @@
-﻿:root
-
-{
-    --bg: #ffffff;
+﻿:root {
+    --bg: #0a0d12;
     --bg2: #f7f8fa;
     --bg3: #f0f2f5;
     --card: #ffffff;
@@ -9,7 +7,7 @@
     --accent: #00a87a;
     --accent2: #0066cc;
     --accent3: #5b3fd4;
-    --text: #1a1f27;
+    --text: #ffffff;
     --muted: #4a5568;
     --muted2: #718096;
     --heading: #0d1117;
@@ -42,6 +40,15 @@ body {
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
+}
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 5vw, 4.2rem);
+    font-weight: 900;
+    line-height: 1.08;
+    color: var(--heading);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
 }
 
 .portfolio::before {
@@ -172,12 +179,12 @@ h1 {
     }
 
 .hero-desc {
-    font-size: 1.05rem;
-    color: var(--muted);
-    line-height: 1.75;
+    font-size: 1.4rem;
+    color: var(--text);
+    line-height: 1.9;
     /*max-width: 480px;*/
     margin-bottom: 2.5rem;
-    font-weight: 300;
+    font-weight: 250;
 }
 
 .hero-cta {
@@ -322,12 +329,15 @@ h1 {
     }
 }
 
+
 section {
     padding: 3rem 2rem;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
-    z-index: 1;
+    z-index: 1;    
+    padding-bottom: 4rem;
+    width: 70%;
 }
 
 .section-label {
@@ -665,7 +675,7 @@ h2 {
     background: var(--bg3);
     border: 1px solid var(--border);
     border-radius: 20px;
-    color: var(--text);
+    color: var(--bg);
     font-weight: 400;
 }
 
@@ -684,7 +694,7 @@ h2 {
     }
 
 .link-card {
-    background: var(--card);
+    background: var(--bg3);
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 1.75rem;
@@ -753,7 +763,7 @@ h2 {
     }
 
 .contact-item {
-    background: var(--card);
+    background: var(--bg3);
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 1.5rem;
@@ -762,6 +772,7 @@ h2 {
     gap: 1rem;
     text-decoration: none;
     transition: border-color 0.2s;
+    justify-content: center;
 }
 
     .contact-item:hover {
@@ -769,8 +780,8 @@ h2 {
     }
 
 .contact-icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     background: var(--bg3);
     display: flex;
@@ -782,7 +793,7 @@ h2 {
 
 .contact-label {
     font-size: 0.72rem;
-    color: var(--muted);
+    color: var(--accent);
     margin-bottom: 0.2rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -790,15 +801,15 @@ h2 {
 
 .contact-value {
     font-size: 0.88rem;
-    color: var(--text);
+    color: var(--accent);
     font-weight: 500;
 }
 
 .cert-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
-}
+    gap: 0.75rem;    
+}   
 
 .cert-badge {
     display: inline-flex;
@@ -809,7 +820,7 @@ h2 {
     border-radius: 8px;
     padding: 0.6rem 1rem;
     font-size: 0.82rem;
-    color: var(--text);
+    color: var(--bg);
 }
 
     .cert-badge::before {

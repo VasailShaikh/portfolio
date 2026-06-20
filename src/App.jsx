@@ -69,7 +69,7 @@ export default function Portfolio() {
             {/* HERO */}
             <section>
                 <div className="hero-bg"></div>
-                <h2 className="stat-num">MOHAMMED VASAIL SHAIKH</h2>  
+                <h2 className="stat-num name"><span>MOHAMMED VASAIL SHAIKH</span></h2>  
                 <div className="hero-eyebrow"><h3>Specialist Software Engineer</h3></div>           
                 <br>
                 </br>
@@ -314,7 +314,10 @@ export default function Portfolio() {
                             <span className="skill-pill">Postman</span>
                             <span className="skill-pill">Burp Suite</span>
                         </div>
-                    </div>
+                    </div>                   
+                </div>
+                <br></br>
+                <div>
                     <div className="skill-group">
                         <div className="skill-group-title">Certifications</div>
                         <div className="cert-grid" style={{ marginTop: 0 }}>
@@ -337,30 +340,31 @@ export default function Portfolio() {
                 <div className="section-label">
                     <h3>Professional Links</h3>
                 </div>
+
                 <div className={`links-grid fade-in ${isFadeInVisible('links-grid') ? 'visible' : ''}`} id="links-grid">
-                    <a className="link-card" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
-                        <div className="link-icon" style={{ background: 'rgba(0,119,181,0.15)' }}>💼</div>
+                    <a className="stat-card link-card" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
+                        <div className="link-icon company-badge" style={{ background: 'rgba(0,119,181,0.15)' }}>💼</div>
                         <div>
-                            <div className="link-name">LinkedIn</div>
-                            <div className="link-url">mohammad-vasail-shaikh</div>
+                            <div className="company-badge">LinkedIn</div>
+                            <div className="link-url company-badge">mohammad-vasail-shaikh</div>
                         </div>
-                        <div className="link-arrow">↗</div>
+                        
                     </a>
-                    <a className="link-card" href="https://github.com/VasailShaikh" target="_blank" rel="noopener noreferrer">
-                        <div className="link-icon" style={{ background: 'rgba(255,255,255,0.06)' }}>🐙</div>
+                    <a className="stat-card link-card" href="https://github.com/VasailShaikh" target="_blank" rel="noopener noreferrer">
+                        <div className="link-icon company-badge" style={{ background: 'rgba(255,255,255,0.06)' }}>🐙</div>
                         <div>
-                            <div className="link-name">GitHub</div>
-                            <div className="link-url">github.com/VasailShaikh</div>
+                            <div className="company-badge">GitHub</div>
+                            <div className="link-url company-badge">github.com/VasailShaikh</div>
                         </div>
-                        <div className="link-arrow">↗</div>
+                        
                     </a>
-                    <a className="link-card" href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer">
-                        <div className="link-icon" style={{ background: 'rgba(255,124,0,0.12)' }}>📋</div>
+                    <a className="stat-card link-card" href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer">
+                        <div className="link-icon company-badge" style={{ background: 'rgba(255,124,0,0.12)' }}>📋</div>
                         <div>
-                            <div className="link-name">Naukri</div>
-                            <div className="link-url">View profile on Naukri</div>
+                            <div className="company-badge">Naukri</div>
+                            <div className="link-url company-badge">View profile on Naukri</div>
                         </div>
-                        <div className="link-arrow">↗</div>
+                        
                     </a>
                 </div>
             </section>
@@ -371,40 +375,23 @@ export default function Portfolio() {
                     <h3>Connect With Me</h3>
                 </div>
                 <div className={`contact-grid fade-in ${isFadeInVisible('contact-grid') ? 'visible' : ''}`} id="contact-grid">
-                    <a className="contact-item" href="tel:+918879914041">
+                    <a className="contact-item link-card stat-card" href="tel:+918879914041">
                         <div className="contact-icon">📱</div>
                         <div>
-                            <div className="contact-label">Phone</div>
+                            <div className="contact-label"><strong>Phone</strong></div>
                             <div className="contact-value">+91 88799 14041</div>
                         </div>
                     </a>
-                    <a className="contact-item" href="mailto:shaikhvasail008@gmail.com">
-                        <div className="contact-icon">✉️</div>
+                    <a className="contact-item link-card stat-card" href="mailto:shaikhvasail008@gmail.com">
+                        <div className="contact-icon">✉</div>
                         <div>
-                            <div className="contact-label">Email</div>
+                            <div className="contact-label"><strong>Email</strong></div>
                             <div className="contact-value">shaikhvasail008@gmail.com</div>
                         </div>
                     </a>
 
                 </div>
-                <br></br>
-                <div className={`contact-grid fade-in ${isFadeInVisible('contact-grid') ? 'visible' : ''}`} id="contact-grid">
-
-                    <div className="contact-item">
-                        <div className="contact-icon">📍</div>
-                        <div>
-                            <div className="contact-label">Location</div>
-                            <div className="contact-value">Mumbai, India</div>
-                        </div>
-                    </div>
-                    <a className="contact-item" href="https://www.linkedin.com/in/mohammed-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
-                        <div className="contact-icon">💼</div>
-                        <div>
-                            <div className="contact-label">LinkedIn</div>
-                            <div className="contact-value">Connect with me</div>
-                        </div>
-                    </a>
-                </div>
+              
             </section>
 
 
