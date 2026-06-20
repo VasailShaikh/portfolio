@@ -342,11 +342,11 @@ export default function Portfolio() {
                 </div>
 
                 <div className={`links-grid fade-in ${isFadeInVisible('links-grid') ? 'visible' : ''}`} id="links-grid">
-                    <a className="stat-card link-card" href="https://www.linkedin.com/in/mohammad-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
+                    <a className="stat-card link-card" href="https://www.linkedin.com/in/mohammed-vasail-shaikh-165b9b214/" target="_blank" rel="noopener noreferrer">
                         <div className="link-icon company-badge" style={{ background: 'rgba(0,119,181,0.15)' }}>💼</div>
                         <div>
                             <div className="company-badge">LinkedIn</div>
-                            <div className="link-url company-badge">mohammad-vasail-shaikh</div>
+                            <div className="link-url company-badge">mohammed-vasail-shaikh</div>
                         </div>
                         
                     </a>
