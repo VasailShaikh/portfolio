@@ -75,11 +75,8 @@ export default function Portfolio() {
                 </br>
                   
                     <p className="hero-desc">
-                        <strong>Fullstack engineer with </strong>
-                        <strong style={{ color: 'var(--text)' }} className="stat-label">Over 7 years</strong>
-                        <strong> of expertise building scalable applications across the</strong>
-                        <strong style={{ color: 'var(--text)' }} className="stat-label"> .NET ecosystem</strong>
-                        <strong>, Microsoft Azure, and modern web technologies. Clean code advocate. AI-assisted development enthusiast.</strong>
+                    <strong>Specialist Software Engineer with </strong>
+                        <strong>over 7 years of expertise building scalable applications across the .NET ecosystem, Microsoft Azure, and modern web technologies. Clean code advocate. AI-assisted development enthusiast.</strong>
                     </p>
 
                     <div className="stat-row">
