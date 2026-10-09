@@ -70,13 +70,18 @@ export default function Portfolio() {
             <section>
                 <div className="hero-bg"></div>
                 <h2 className="stat-num name"><span>MOHAMMED VASAIL SHAIKH</span></h2>  
-                <div className="hero-eyebrow"><h3>Specialist Software Engineer</h3></div>           
+                <div className="hero-eyebrow"><h3>Full Stack .Net Engineer</h3></div>           
                 <br>
                 </br>
                   
                     <p className="hero-desc">
-                    <strong>Specialist Software Engineer with </strong>
-                        <strong>over 7 years of expertise building scalable applications across the .NET ecosystem, Microsoft Azure, and modern web technologies. Clean code advocate. AI-assisted development enthusiast.</strong>
+                    <strong>I am Full Stack .Net Engineer with </strong>
+                    <strong>over 7 years of experience building
+                        real-world software solutions for businesses using the .NET ecosystem.
+                        I modernize legacy .NET codebases to the latest .NET framwork , migrate on-premises systems to the cloud.
+                        I have built applications from scratch, integrated existing applications with third-party systems like enterprice SAP, Sharepoint.
+                        I have worked across E-governance, Saas Based CRM, Construction & Engineering Domains
+                        which taught me how to turn messy business requirements into real software solutions.</strong>
                     </p>
 
                     <div className="stat-row">
@@ -174,22 +179,19 @@ export default function Portfolio() {
                             <div className="timeline-header">
                                 <div>
                                     <div className="timeline-role">Senior Software Engineer</div>
-                                    <div className="company-badge">● LTIMindtree Ltd</div>
-                                    {/*<div className="role-meta">*/}
-                                    {/*    <span>🗓 Nov 2022 – Dec 2025</span>*/}
-                                    {/*</div>*/}
+                                    <div className="company-badge">● LTIMindtree Ltd</div>                                  
                                 </div>
                                 <div className="timeline-period">
                                     <span>🗓 <strong>Nov 2022 – Dec 2025</strong></span>
                                 </div>
                             </div>
                             <ul className="role-bullets">
-                                <li>Delivered multiple web-based applications from scratch using .NET Core, improving scalability by 40% and reducing deployment time by 50% through Azure automated CI/CD pipelines.</li>
-                                <li>Led cloud migration of legacy applications to Azure and .NET Core — improved performance by 25% and achieved 99.9% uptime SLA.</li>
-                                <li>Designed RESTful generic APIs in Microservice Architecture to automate bidirectional data flow between applications and SAP.</li>
-                                <li>Automated daily and monthly analysis reports using Microsoft SSRS.</li>
-                                <li>Developed Generic APIs for SharePoint file download/upload; migrated physical store files to SharePoint without application disruption.</li>
-                                <li>Mentored junior developers on coding best practices and cloud architecture.</li>
+                                <li>Delivered three web applications from scratch, covering requirements, development, and production release.</li>
+                                <li>Handled production support and change requests within SLA, resolving incidents and deploying changes with minimal disruption.</li>
+                                <li>Built a generic SharePoint file upload and download API, giving multiple applications a single reusable service for document storage.</li>
+                                <li>Designed RESTful generic APIs in a microservices architecture to automate bidirectional data flow between applications and SAP.</li>
+                                <li>Optimized database queries, stored procedures, and indexing, reducing average query execution time by 50%.</li>                       
+                                <li>Migrated a legacy application to the .NET Core framework to improving maintainability and performance.</li>
                             </ul>
                             <div className="tags">
                                 <span className="tag">ASP.NET MVC</span>
@@ -213,12 +215,11 @@ export default function Portfolio() {
                                 </div>
                             </div>
                             <ul className="role-bullets">
-                                <li>Developed two web applications (EoDB & MahaWaqf) from scratch using ASP.NET MVC and Dapper ORM, delivering 10+ citizen services across 4 major releases.</li>
-                                <li>Implemented digital signature functionality using iTextSharp library.</li>
-                                <li>Resolved vulnerabilities from VAPT audits, strengthening security posture.</li>
+                                <li>Developed two citizen-facing web applications (EoDB and MahaWaqf) from scratch for mahaIT, in .NET Core MVC Covering 10+ citizen services across four major releases.</li>
+                                <li>Implemented digital signature functionality with the iTextSharp library, enabling secure document signing within the application.</li>
+                                <li>Resolved vulnerabilities identified in VAPT audits, strengthening the application’s security posture.</li>
                                 <li>Supported go-live by resolving 95% of critical incidents within SLA.</li>
-                                <li>Replaced Aspose with Spire.Doc for Word/HTML to PDF generation — saved ~$1,190/year in licensing.</li>
-                                <li>Optimised database queries, procedures, and indexing — improved average execution time by 30%.</li>
+                                <li>Replaced Aspose with Spire.Doc for Word and HTML-to-PDF generation, cutting annual licensing costs by approximatly $100/per application yearly.</li>
                             </ul>
                             <div className="tags">
                                 <span className="tag">ASP.NET MVC</span>
