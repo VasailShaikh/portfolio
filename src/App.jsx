@@ -76,7 +76,7 @@ export default function Portfolio() {
                   
                     <p className="hero-desc">
                     <strong>I am Full Stack .Net Engineer with </strong>
-                    <strong>over 7 years of experience building
+                    <strong><label className="stat-num"><span>over 8 years</span></label> experience in building
                         real-world software solutions for businesses using the .NET ecosystem.
                         I modernize legacy .NET codebases to the latest .NET framwork , migrate on-premises systems to the cloud.
                         I have built applications from scratch, integrated existing applications with third-party systems like enterprice SAP, Sharepoint.
@@ -84,9 +84,9 @@ export default function Portfolio() {
                         which taught me how to turn messy business requirements into real software solutions.</strong>
                     </p>
 
-                    <div className="stat-row">
+                  {/*   <div className="stat-row">
                         <div className="stat-card">
-                            <div className="stat-num"><span>Over 7</span></div>
+                            <div className="stat-num"><span>Over 8</span></div>
                             <div className="stat-label">Years of experience</div>
                         </div>
                         <div className="stat-card">
@@ -104,14 +104,13 @@ export default function Portfolio() {
                             <div className="stat-num"><span>90%</span></div>
                             <div className="stat-label"><strong>Uptime SLA achieved</strong></div>
                         </div>
-                    </div>
+                    </div> */}
                     <br>
                     </br>
                     <div className="location-badge">
-                        <div className="dot"></div>
-                    <strong>Open to new opportunities - 📍 Mumbai, India.</strong>
-                    </div>
-                                  
+                    <div className="dot"></div>
+                    <strong><label className="stat-num"><span>Open to new opportunities - 📍 Mumbai, India.</span></label></strong>
+                    </div>                                  
             </section>
                        
             {/* CURRENT ROLE */}
@@ -154,12 +153,10 @@ export default function Portfolio() {
                     {/*    <li>Mentored junior developers on coding best practices and cloud architecture.</li>*/}
                     {/*</ul>*/}
                     <div className="tags">
-                        <span className="tag">.NET Core</span>
+                        <span className="tag">AI-Assisted Development</span>
                         <span className="tag">Azure CI/CD</span>
-                        <span className="tag">Microservices</span>
-                        <span className="tag">REST API</span>
-                        <span className="tag">SSRS</span>
-                        <span className="tag">SharePoint</span>
+                        <span className="tag">Microservices</span> 
+                        <span className="tag">SharePoint Intergration</span>
                         <span className="tag">SAP Integration</span>
                     </div>
                 </div>
@@ -168,14 +165,27 @@ export default function Portfolio() {
             {/* WORK HISTORY */}
             <section id="history">
                 <div className="section-label">
-
-                    <h3> Career Journey</h3>
+                    <h3>Career Journey</h3>
                 </div>
-
+               
                 <div className="timeline">
-
-                    <div className={`timeline-item fade-in ${isFadeInVisible('history-0') ? '' : ''}`} id="history-0">
+                    <div className={`timeline-item fade-in ${isFadeInVisible('history-0') ? '' : ''}`} id="history-0">                        
+                            
                         <div className={`timeline-card ${isFadeInVisible('history-0') ? 'visible' : ''}`}>
+                            <div className="timeline-header">
+                                <div>
+                                    <div className="timeline-role">Specialist Software Engineer</div>
+                                    <div className="company-badge">● LTIMindtree Ltd</div>
+                                </div>
+                                <div className="timeline-period">
+                                    <span>🗓 <strong>Jan 2026 – Present</strong></span>
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </div>
+                    <div className={`timeline-item fade-in ${isFadeInVisible('history-1') ? '' : ''}`} id="history-1">
+                        <div className={`timeline-card ${isFadeInVisible('history-1') ? 'visible' : ''}`}>
                             <div className="timeline-header">
                                 <div>
                                     <div className="timeline-role">Senior Software Engineer</div>
@@ -194,24 +204,27 @@ export default function Portfolio() {
                                 <li>Migrated a legacy application to the .NET Core framework to improving maintainability and performance.</li>
                             </ul>
                             <div className="tags">
-                                <span className="tag">ASP.NET MVC</span>
-                                <span className="tag">Dapper ORM</span>
-                                <span className="tag">iTextSharp</span>
-                                <span className="tag">VAPT</span>
-                                <span className="tag">SMTP</span>
-                                <span className="tag">SQL Optimisation</span>
+                                <span className="tag">.NET Core</span>
+                                <span className="tag">RESTful API</span>
+                                <span className="tag">AI-Assisted Development</span>
+                                <span className="tag">Microservices</span>
+                                <span className="tag">Azure CI/CD</span>
+                                <span className="tag">SharePoint Intergration</span>
+                                <span className="tag">SAP Integration</span>
+                                <span className="tag">Code Migration</span>
+                                                               
                             </div>
                         </div>
                     </div>
-                    <div className={`timeline-item fade-in ${isFadeInVisible('history-1') ? '' : ''}`} id="history-1">
-                        <div className={`timeline-card ${isFadeInVisible('history-1') ? 'visible' : ''}`}>
+                    <div className={`timeline-item fade-in ${isFadeInVisible('history-2') ? '' : ''}`} id="history-2">
+                        <div className={`timeline-card ${isFadeInVisible('history-2') ? 'visible' : ''}`}>
                             <div className="timeline-header">
                                 <div>
                                     <div className="timeline-role">Software Developer</div>
                                     <div className="company-badge">● Birlasoft ltd</div>
                                 </div>
                                 <div className="timeline-period">
-                                    <span> 🗓 <strong>Jan 2021 – Sep 2022</strong></span>
+                                    <span className="Otp-verify"> 🗓 <strong>Jan 2021 – Sep 2022</strong></span>
                                 </div>
                             </div>
                             <ul className="role-bullets">
@@ -232,8 +245,8 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div className={`timeline-item fade-in ${isFadeInVisible('history-2') ? '' : ''}`} id="history-2">
-                        <div className={`timeline-card ${isFadeInVisible('history-2') ? 'visible' : ''}`}>
+                    <div className={`timeline-item fade-in ${isFadeInVisible('history-3') ? '' : ''}`} id="history-3">
+                        <div className={`timeline-card ${isFadeInVisible('history-3') ? 'visible' : ''}`}>
                             <div className="timeline-header">
                                 <div>
                                     <div className="timeline-role">Jr. Software Developer</div>
@@ -318,15 +331,15 @@ export default function Portfolio() {
                 <div>
                     <div className="skill-group">
                         <div className="skill-group-title">Certifications</div>
-                        <div className="cert-grid" style={{ marginTop: 0 }}>
-                            <span className="cert-badge">AZ-900</span>
+                        <div className="cert-grid" style={{ marginTop: 0 }}>                           
                             <span className="cert-badge">Claude 101</span>
-                            <span className="cert-badge">HP-Critical Thinking in the AI Era</span>
-                            <span className="cert-badge">Intel AI Aware and Appreciate Badges</span>
                             <span className="cert-badge">OCI 2025 AI Foundation</span>
-                            <span className="cert-badge">AWS Cloud Economics</span>
-                            <span className="cert-badge">Google Analytics</span>
+                            <span className="cert-badge">Intel AI Aware and Appreciate Badges</span>
                             <span className="cert-badge">Ethics in GenAI</span>
+                            <span className="cert-badge">HP-Critical Thinking in the AI Era</span>
+                            <span className="cert-badge">AWS Cloud Economics</span>
+                            <span className="cert-badge">AZ-900</span>
+                            <span className="cert-badge">Google Analytics</span>
                             <span className="cert-badge">TCS iON Career Edge - Young Professional</span>
                         </div>
                     </div>
