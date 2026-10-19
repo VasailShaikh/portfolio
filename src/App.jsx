@@ -77,11 +77,11 @@ export default function Portfolio() {
                     <p className="hero-desc">
                     <strong>I am Full Stack .Net Engineer with </strong>
                     <strong><label className="stat-num"><span>over 8 years</span></label> experience in building
-                        real-world software solutions for businesses using the .NET ecosystem.
-                        I modernize legacy .NET codebases to the latest .NET framwork , migrate on-premises systems to the cloud.
-                        I have built applications from scratch, integrated existing applications with third-party systems like enterprice SAP, Sharepoint.
-                        I have worked across E-governance, Saas Based CRM, Construction & Engineering Domains
-                        which taught me how to turn messy business requirements into real software solutions.</strong>
+                        real world software solutions for businesses using the .NET ecosystem.
+                        Modernizing legacy .NET codebases to the latest .NET, migrating on-premises systems to the cloud,
+                        integrating existing applications with third-party systems like enterprice SAP, Sharepoint.
+                        With hands-on experience in AI-assisted development tools and strong analytical, problem-solving, and communication skills.
+                        I have worked across E-governance, Construction & Engineering Domains turning messy business requirements into real software solutions.</strong>
                     </p>
 
                   {/*   <div className="stat-row">
@@ -228,8 +228,9 @@ export default function Portfolio() {
                                 </div>
                             </div>
                             <ul className="role-bullets">
-                                <li>Developed two citizen-facing web applications (EoDB and MahaWaqf) from scratch for mahaIT, in .NET Core MVC Covering 10+ citizen services across four major releases.</li>
+                                <li>Delivered two citizen-facing web applications (EoDB and MahaWaqf) from scratch for mahaIT, Covering 10+ citizen services across four major releases.</li>
                                 <li>Implemented digital signature functionality with the iTextSharp library, enabling secure document signing within the application.</li>
+                                <li>Conducted UAT with end user and QA team.</li>
                                 <li>Resolved vulnerabilities identified in VAPT audits, strengthening the application’s security posture.</li>
                                 <li>Supported go-live by resolving 95% of critical incidents within SLA.</li>
                                 <li>Replaced Aspose with Spire.Doc for Word and HTML-to-PDF generation, cutting annual licensing costs by approximatly $100/per application yearly.</li>
@@ -258,8 +259,9 @@ export default function Portfolio() {
                                 </div>
                             </div>
                             <ul className="role-bullets">
-                                <li>Developed new modules for an existing SaaS application using .NET MVC and MySQL, serving 50+ fitness centers across India and the Middle East.</li>
+                                <li>Developed new modules for an existing SaaS application using serving 50+ fitness centers across India and the Middle East.</li>
                                 <li>Integrated the SaaS application with Oracle Fusion for KSA and UAE customers.</li>
+                                <li>Developed RestFull API for consum in custom mobile application build KSA and UAE customers.</li>
                                 <li>Developed automated reports via console application for respective stakeholders.</li>
                                 <li>Participated in daily stand-ups, sprint planning, and retrospectives in an Agile/Scrum environment.</li>
                             </ul>
