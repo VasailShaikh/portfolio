@@ -229,11 +229,11 @@ export default function Portfolio() {
                             </div>
                             <ul className="role-bullets">
                                 <li>Delivered two citizen-facing web applications (EoDB and MahaWaqf) from scratch for mahaIT, Covering 10+ citizen services across four major releases.</li>
-                                <li>Implemented digital signature functionality with the iTextSharp library, enabling secure document signing within the application.</li>
+                                <li>Implemented digital signature functionality enabling secure document signing within the application.</li>
                                 <li>Conducted UAT with end user and QA team.</li>
                                 <li>Resolved vulnerabilities identified in VAPT audits, strengthening the application’s security posture.</li>
-                                <li>Supported go-live by resolving 95% of critical incidents within SLA.</li>
-                                <li>Replaced Aspose with Spire.Doc for Word and HTML-to-PDF generation, cutting annual licensing costs by approximatly $100/per application yearly.</li>
+                                <li>Supported in go-live phase by resolving 95% of critical incidents within SLA.</li>
+                                <li>Replaced existing pfd generating library with open source library, saving annual licensing costs by approximatly $100/per application yearly.</li>
                             </ul>
                             <div className="tags">
                                 <span className="tag">ASP.NET MVC</span>
@@ -261,7 +261,7 @@ export default function Portfolio() {
                             <ul className="role-bullets">
                                 <li>Developed new modules for an existing SaaS application using serving 50+ fitness centers across India and the Middle East.</li>
                                 <li>Integrated the SaaS application with Oracle Fusion for KSA and UAE customers.</li>
-                                <li>Developed RestFull API for consum in custom mobile application build KSA and UAE customers.</li>
+                                <li>Developed RestFull API to be consum by mobile application serving KSA and UAE customers.</li>
                                 <li>Developed automated reports via console application for respective stakeholders.</li>
                                 <li>Participated in daily stand-ups, sprint planning, and retrospectives in an Agile/Scrum environment.</li>
                             </ul>
