@@ -376,7 +376,7 @@ export default function Portfolio() {
                     <a className="stat-card link-card" href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer">
                         <div className="link-icon company-badge" style={{ background: 'rgba(255,124,0,0.12)' }}>📋</div>
                         <div>
-                            <div className="company-badge">Naukri</div>
+                            <div className="company-badge">Naukri</div>&nbsp;&nbsp;
                             <div className="link-url company-badge">View profile on Naukri</div>
                         </div>
                         
