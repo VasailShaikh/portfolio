@@ -79,8 +79,8 @@ export default function Portfolio() {
                     <strong><label className="stat-num"><span>over 8 years</span></label> experience in building
                         real world software solutions for businesses using the .NET ecosystem.
                         Modernizing legacy .NET codebases to the latest .NET, migrating on-premises systems to the cloud,
-                        integrating existing applications with third-party systems like enterprice SAP, Sharepoint.
-                        With hands-on experience in AI-assisted development tools and strong analytical, problem-solving, and communication skills.
+                        integrating existing applications with third-party systems like enterprise SAP, SharePoint.
+                        With hands-on experience in AI-assisted development tools and strong analytical thinking, problem-solving, and communication skills, 
                         I have worked across E-governance, Construction & Engineering Domains turning messy business requirements into real software solutions.</strong>
                     </p>
 
@@ -144,14 +144,7 @@ export default function Portfolio() {
                             <div className="impact-desc">Performance gain via cloud migration</div>
                         </div>
                     </div>
-                    {/*<ul className="role-bullets">*/}
-                    {/*    <li>Delivered multiple web-based applications from scratch using .NET Core, improving scalability by 40% and reducing deployment time by 50% through Azure automated CI/CD pipelines.</li>*/}
-                    {/*    <li>Led cloud migration of legacy applications to Azure and .NET Core — improved performance by 25% and achieved 99.9% uptime SLA.</li>*/}
-                    {/*    <li>Designed RESTful generic APIs in Microservice Architecture to automate bidirectional data flow between applications and SAP.</li>*/}
-                    {/*    <li>Automated daily and monthly analysis reports using Microsoft SSRS.</li>*/}
-                    {/*    <li>Developed Generic APIs for SharePoint file download/upload; migrated physical store files to SharePoint without application disruption.</li>*/}
-                    {/*    <li>Mentored junior developers on coding best practices and cloud architecture.</li>*/}
-                    {/*</ul>*/}
+                   
                     <div className="tags">
                         <span className="tag">AI-Assisted Development</span>
                         <span className="tag">Azure CI/CD</span>
@@ -181,8 +174,17 @@ export default function Portfolio() {
                                     <span>🗓 <strong>Jan 2026 – Present</strong></span>
                                 </div>
                             </div>
-                            </div>
-                        
+                            
+                        <ul className="role-bullets">
+                            <li>Collaborating with cross-functional team to deliver high-quality, user-facing web applications.</li>
+                            <li>Build and maintain .Net Core APIs for application logic and integration.</li>
+                            <li>Implement backend workflows and bussiness rules using SQL Server stored procedures and queries.</li>
+                            <li>Participate in agile ceremonies, sprint planning, estimations, and retrospectives.</li>
+                            <li>Ensuring application performance, scalabity, and security by following best engineering practices.</li>
+                            <li>Working closly with senior engineerings and architecs to align on patterns, tooling, standards.</li>
+                                <li>Contributing to unit/integration testing, CI/CDnpipelines, and production support task.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className={`timeline-item fade-in ${isFadeInVisible('history-1') ? '' : ''}`} id="history-1">
                         <div className={`timeline-card ${isFadeInVisible('history-1') ? 'visible' : ''}`}>
